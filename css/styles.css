@@ -208,7 +208,6 @@ body {
 /*_____________________ Main banner  */
 
 .main-banner {
-  /* background-color: var(--background-color-basic); */
   background-color: #c4c4c4;
   background-image: linear-gradient(
       to right,
