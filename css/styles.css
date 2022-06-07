@@ -115,6 +115,15 @@ body {
   justify-content: center;
 }
 
+.constructor-item {
+  width: 45px;
+  height: 45px;
+}
+
+.constructor-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 /* _________________ Header styles */
 
 .header {
@@ -206,7 +215,7 @@ body {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/Img_main_background.png);
+    url(../images/img_main_background.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1600px 600px;
@@ -342,11 +351,6 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.employer-item {
-  width: 45px;
-  height: 45px;
-}
-
 .employer-soc-link {
   width: 100%;
   height: 100%;
@@ -460,10 +464,6 @@ body {
 
 .footer-block-social {
   margin-left: 70px;
-}
-
-.employer-item:not(:last-child) {
-  margin-right: 10px;
 }
 
 .footer-soc-link {
